@@ -1,0 +1,40 @@
+.btn-primary, .btn-primary:hover {
+  background-color: #ff6600;
+  border: none;
+}
+
+.text-branding {
+  color: #ff6600;
+}
+
+.bg-branding {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+
+.reviewer::before {
+  content: '';
+  display: block;
+  height: 3px;
+  width: 80px;
+  background-color: #ff6600;
+}
+
+@media (max-width: 575px) {
+  #hero {
+    background: #ffe9db;
+  }
+  .testimonial {
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .testimonial img {
+    margin-bottom: 1em;
+  }
+  .reviewer::before {
+    margin: 0 auto;
+  }
+}

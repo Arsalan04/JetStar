@@ -1,4 +1,11 @@
-.btn-primary, .btn-primary:hover {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-primary,
+.btn-primary:hover {
   background-color: #ff6600;
   border: none;
 }
@@ -25,15 +32,18 @@
   #hero {
     background: #ffe9db;
   }
+
   .testimonial {
     flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
   }
+
   .testimonial img {
     margin-bottom: 1em;
   }
+
   .reviewer::before {
     margin: 0 auto;
   }
